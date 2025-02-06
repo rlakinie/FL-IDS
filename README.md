@@ -10,7 +10,7 @@ The rapid advancement of machine learning (ML) and on-device computing has revol
 
 
 
-Thee project's aim is propose a hybrid server-edge FL framework that offloads pre-training to a central server while enabling lightweight fine-tuning on edge devices, particularly for connected and autonomous vehicle architecture and other related applications. 
+%Thee project's aim is propose a hybrid server-edge FL framework that offloads pre-training to a central server while enabling lightweight fine-tuning on edge devices, particularly for connected and autonomous vehicle architecture and other related applications. 
 
 ## Seup and Installation
 
