@@ -1,5 +1,5 @@
 # Fine-Tuning Federated LEarning-BAsed Intrusion Detection Systems for Transportatio IoT
-Federated Learning based Intrusion Detection Systems with [Flower](https://github.com/adap/flower), Raspberry Pi 4s and the NSL-KDD dataset [NSL-KDD](https://www.kaggle.com/datasets/hassan06/nslkdd)
+Federated Learning based Intrusion Detection Systems with [Flower](https://github.com/adap/flower), Raspberry Pi 4s and the [NSL-KDD dataset](https://www.kaggle.com/datasets/hassan06/nslkdd)
 
 ## Overview
 
