@@ -15,7 +15,8 @@ The project's aim is to propose a hybrid server-edge FL framework that offloads 
 Implementation includes training a 1D ConvNet for Network Intrusuion Detection, deployed across a server and a number of Raspberry Pis acting as clients. The server pretrains a global intrusion detection model using proxy data.
 
 ## Quick Start Guide
-
+- Download the [NSL-KDD dataset](https://www.kaggle.com/datasets/hassan06/nslkdd)
+- Place the training and test files in the project's data folder
 
 ## 
 Project code will be uploaded soon
