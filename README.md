@@ -3,17 +3,14 @@ Federated Learning based Intrusion Detection Systems with [Flower](https://githu
 
 ## Overview
 
-This repo represents the implementation for for the corresponding paper, FIne-Tuning Federated Learning-based Intrusion Detection Systems for Transportation IoT. 
+This repository represents a basic implementation for the corresponding research paper, Fine-Tuning Federated Learning-based Intrusion Detection Systems for Transportation IoT, whcich can be found [here]() once its published. A preprint would be live on ArXiv soon.
 
 ## Abstract
 The rapid advancement of machine learning (ML) and on-device computing has revolutionized various industries, including transportation, through the development of Connected and Autonomous Vehicles (CAVs) and Intelligent Transportation Systems (ITS). These technologies improve traffic management and vehicle safety, but also introduce significant security and privacy concerns, such as cyberattacks and data breaches. Traditional Intrusion Detection Systems (IDS) are increasingly inadequate in detecting modern threats, leading to the adoption of ML-based IDS solutions. Federated Learning (FL) has emerged as a promising method for enabling the decentralized training of IDS models on distributed edge devices without sharing sensitive data. However, deploying FL-based IDS in CAV networks poses unique challenges, including limited computational and memory resources on edge devices, competing demands from critical applications such as navigation and safety systems, and the need to scale across diverse hardware and connectivity conditions. To address these issues, we propose a hybrid server-edge FL framework that offloads pre-training to a central server while enabling lightweight fine-tuning on edge devices. This approach reduces memory usage by up to 42%, decreases training times by up to 75%, and achieves competitive IDS accuracy of up to 99.2%. Scalability analysis furtherdemonstrates minimal performance degradation as the number of clients increases, highlighting the framework’s feasibility for CAV networks and other IoT applications.
 
 
-
-
-
-## Seup and Installation
-The project's aim is propose a hybrid server-edge FL framework that offloads pre-training to a central server while enabling lightweight fine-tuning on edge devices, particularly for connected and autonomous vehicle architecture and other related applications. 
+## Methodology
+The project's aim is to propose a hybrid server-edge FL framework that offloads pre-training to a central server while enabling lightweight fine-tuning on edge devices, particularly for connected and autonomous vehicle architecture and other related applications. THis implmnetation addressses resource constraints in Federated Learning on the edge, particularly for CAV computing environments. Implementation includes training a 1D ConvNet for Network Intrusuion Detection, deployed across a server and a number of Raspberry Pis acting as clients. The server pretrains a global intrusion detection model using proxy data - in this specific implementation, the proxy data used is the original NSL-KDD Testing data. The server then shares model parameters with participating clients, who perform finetuning on the classification head of the model, with their respective localized network data. The localized data of each client represent distinct partitions of the NSL Training set. All data preprocessing occur on these clients.
 
 
 
