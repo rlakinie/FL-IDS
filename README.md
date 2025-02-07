@@ -10,7 +10,9 @@ The rapid advancement of machine learning (ML) and on-device computing has revol
 
 
 ## Methodology
-The project's aim is to propose a hybrid server-edge FL framework that offloads pre-training to a central server while enabling lightweight fine-tuning on edge devices, particularly for connected and autonomous vehicle architecture and other related applications. THis implmnetation addressses resource constraints in Federated Learning on the edge, particularly for CAV computing environments. Implementation includes training a 1D ConvNet for Network Intrusuion Detection, deployed across a server and a number of Raspberry Pis acting as clients. The server pretrains a global intrusion detection model using proxy data - in this specific implementation, the proxy data used is the original NSL-KDD Testing data. The server then shares model parameters with participating clients, who perform finetuning on the classification head of the model, with their respective localized network data. The localized data of each client represent distinct partitions of the NSL Training set. All data preprocessing occur on these clients.
+The project's aim is to propose a hybrid server-edge FL framework that offloads pre-training to a central server while enabling lightweight fine-tuning on edge devices, particularly for connected and autonomous vehicle architecture and other related applications. This implmnetation addressses resource constraints in Federated Learning on the edge, particularly for CAV computing environments. 
+
+Implementation includes training a 1D ConvNet for Network Intrusuion Detection, deployed across a server and a number of Raspberry Pis acting as clients. The server pretrains a global intrusion detection model using proxy data - in this specific implementation, the proxy data used is the original NSL-KDD Testing data. Further details can be found in the paper.
 
 
 
