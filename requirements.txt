@@ -1,0 +1,11 @@
+flwr
+matplotlib
+numpy
+pandas
+scikit-learn
+torch
+
+tqdm
+
+#optional
+seaborn
